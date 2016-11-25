@@ -9,6 +9,8 @@
   <b>Example:</b><br>
   `public void shouldGetLocalDataWhenCreatePresenter(){
   }`
+  
+* La estructura de los test debe ser siempre del tipo Given -> When -> Then
 
 ## Kotlin
 * In a Kotlin test, instead of using *when* method from Mockito library, which is a reserved keyword from Kotlin, better use ***whenever*** (for that, you should add to your build gradle mockito-kotlin library dependency).
